@@ -1,0 +1,107 @@
+* {
+  font-family: "Roboto", sans-serif, "Times New Roman";
+  font-weight: 300;
+}
+body {
+  margin: unset;
+}
+h3 {
+  font-family: "Libre Baskerville", serif;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+header img {
+  width: 12rem;
+}
+
+nav {
+  text-align: center;
+  background-color: #fcfbf0;
+  color: #1b5e55;
+  border-top: 2px solid #f8e6a3;
+  font-weight: 500;
+  padding-bottom: 0.1em;
+}
+
+nav span {
+  font-weight: 700;
+}
+
+article {
+  padding-top: 2em;
+  width: 45%;
+  margin-inline: auto;
+}
+
+article h1 {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  font-size: 2em;
+  color: #333333;
+  font-weight: 500;
+}
+
+article video {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgb(0 0 0/30%);
+}
+
+#img-des {
+  text-align: center;
+  font-weight: 500;
+  color: #929292;
+}
+
+#feat {
+  border-left: 2px solid #f6d25d;
+  padding-left: 1.5em;
+}
+
+#feat p {
+  margin: unset;
+  color: #aa4b1e;
+  font-weight: 500;
+}
+
+#feat a {
+  color: #1a8785;
+  font-weight: 500;
+}
+
+#recipe {
+  padding-top: 2.5em;
+}
+
+section h3 {
+  font-weight: 500;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccf3f2;
+  color: #333333;
+}
+
+#recipe .h {
+  font-weight: 500;
+}
+
+#recipe li {
+  padding: 0.3em;
+}
+
+li span {
+  font-weight: 500;
+}
+
+ol li p {
+  line-height: 1.4;
+}
+
+p a {
+  color: #327372;
+  font-weight: 500;
+}
