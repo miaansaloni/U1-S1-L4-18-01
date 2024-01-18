@@ -1,8 +1,12 @@
 /* IMPOSTAZIONI GENERALI */
 * {
   font-family: "Poppins", sans-serif;
+  line-height: 1.3;
+  font-size: small;
 }
-
+p {
+  margin-top: 1rem;
+}
 body {
   background-color: rgb(23, 58, 58);
 }
@@ -21,7 +25,7 @@ header {
 }
 header img {
   width: 200px;
-  padding-top: 1rem;
+  padding-top: 1.6rem;
   padding-bottom: 1rem;
 }
 
@@ -44,6 +48,7 @@ main {
   width: 95%;
   margin-inline: auto;
 }
+
 /* ELEMENTI NEL MAIN - ARTICLE */
 article {
   margin-top: 1rem;
@@ -51,8 +56,84 @@ article {
   padding-top: 2rem;
   background-color: white;
 }
-/* TABELLE */
 
+article h1 {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+#author {
+  color: #a0a0a0;
+}
+
+.key-phr {
+  color: #9e3290;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.txtwrap {
+  border: 1px solid #969494;
+  border-radius: 6px;
+  background-color: #e3e3e3;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.6;
+}
+/* TABELLE */
+table {
+  border-bottom: 2px solid #3f6bca;
+  width: 320px;
+  text-align: center;
+}
+table caption {
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 1rem;
+}
+
+table td,
+table th {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3f6bca;
+  color: white;
+}
+
+#tool-link {
+  font-weight: bold;
+  color: #00a0c6;
+}
+
+iframe {
+  border-radius: 20px;
+  width: 100;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
