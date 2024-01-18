@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img src="assets/img/logo.svg" alt="" />
+        <p>EPICODE - IL BLOG DEI DEVEOPERS</p>
+        <nav>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ARTICOLI</a></li>
+            <li><a href="">JOB</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <h1>Come creare un template per i post</h1>
+        <p>di Mario Rossi - <span>pubblicato il 25-10-2020</span></p>
+        <p>
+          La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le
+          <strong>parti comuni</strong> da applicare a tutte le pagine
+        </p>
+        <p>Le varie aree saranno quindi suddivise in:</p>
+        <ul>
+          <li>Contenuti di intestazione del tag <code>&lt;header&gt;</code></li>
+          <li>
+            Contenuti centrali variabili del tag
+            <code>&lt;main&gt;</code> (corpo principale)
+          </li>
+          <li>
+            Contenuti di fine pagina comuni, da inserire nel tag
+            <code>&lt;footer&gt;</code>
+          </li>
+        </ul>
+        <h2>Formattazione del codice</h2>
+        <p>
+          Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da
+          <strong>selezionare con i CSS</strong>. Perciò i passi saranno:
+        </p>
+        <ol>
+          <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
+          <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+          <li>Applicare gli stili CSS</li>
+        </ol>
+        <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
+      </article>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
